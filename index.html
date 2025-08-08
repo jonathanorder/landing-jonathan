@@ -52,18 +52,24 @@
   <section id="contacto">
     <h2>¿Trabajamos juntos?</h2>
     <p>Estoy disponible para proyectos freelance. Escríbeme y hablemos de cómo puedo ayudarte.</p>
-    <form>
-      <input type="text" placeholder="Tu nombre" required>
-      <input type="email" placeholder="Tu email" required>
-      <textarea placeholder="Cuéntame tu proyecto..." required></textarea>
+    <form action="https://formspree.io/f/mxyz1234" method="POST">
+      <label for="name">Nombre:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Correo electrónico:</label><br>
+      <input type="email" id="email" name="_replyto" required><br><br>
+
+      <label for="message">Mensaje:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
       <button type="submit">Enviar</button>
     </form>
   </section>
 
   <footer>
     <p>© 2025 Jonathan | Consultor IT Freelance</p>
-    <a href="https://linkedin.com/in/tuusuario" target="_blank">LinkedIn</a> |
-    <a href="mailto:tuemail@ejemplo.com">Email</a>
+    <a href="https://linkedin.com/in/joniorder" target="_blank">LinkedIn</a> |
+    <a href="mailto:jonathanorder@gmail.com">Email</a>
   </footer>
 
 </body>
